@@ -1,0 +1,8 @@
+nome = input("Informe seu nome: ")
+print(nome)
+idade = input("Informe sua idade: ")
+print(idade)
+print(nome, idade)
+print(nome, idade, end="...\n")
+print(nome, idade, sep="#")
+print(nome, idade, sep="#", end="...\n")
